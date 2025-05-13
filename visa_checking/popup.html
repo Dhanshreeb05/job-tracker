@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Visa Checker</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    h2 {
+      color: #4285F4;
+      margin-top: 0;
+    }
+    .status {
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 4px;
+      background-color: #E8F0FE;
+      font-weight: bold;
+    }
+    button {
+      background-color: #4285F4;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #3367D6;
+    }
+  </style>
+</head>
+<body>
+  <h2>Job Visa Checker</h2>
+  <div class="status" id="statusMessage">Job page detected!</div>
+  <div id="result">
+    <!-- Future analysis results will go here -->
+  </div>
+  <button id="checkVisaBtn">Check Visa Requirements</button>
+  <script src="popup.js"></script>
+</body>
+</html>
